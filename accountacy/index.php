@@ -18,7 +18,7 @@
 				$id=$_POST['id'];
 				$result=mysqli_query($db,"SELECT * FROM status WHERE id=$id");
 				while ($row=mysqli_fetch_assoc($result)) {
-				echo"<input size='7px;' type='text' class='status' value='{$row['name']}'>jjjkjk";
+				echo"<input size='7px;' type='text' class='status' value='{$row['name']}'>";
 			    }
 			}
 			?>
