@@ -6,20 +6,22 @@
 		<meta charset="UTF-8">
 		<title>Cont bankar</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="jquery-3.5.1.min.js"></script>
-		<script src="main.js"></script>
+		<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
 	</head>
 
 	<body>
 	<div id="border">
 		<div class="horizontal" align="right"><div>Статус документа:
 			<?php
-				$result=mysqli_query($db,"SELECT * FROM `status`");?>
-				<select size="0;" name='status'>
-				<?php while ($row=mysqli_fetch_assoc($result)) {
-					echo"<option value='{$row['id']}'>{$row['name']}</option>";
-				}?>
-				</select>
+				if(isset($_POST['id'])&&!empty($_POST['id'])){
+				$id=$_POST['id'];
+				$result=mysqli_query($db,"SELECT * FROM status WHERE id=$id");
+				while ($row=mysqli_fetch_assoc($result)) {
+				echo"<input size='7px;' type='text' class='status' value='{$row['name']}'>jjjkjk";
+			    }
+			}
+			?>
 			<!-- 
 			
 				<option value="1">новый</option>
@@ -144,7 +146,7 @@
 			<tg id="tva" style="padding-left: 25px;">Тип перевода</tg>
 			<?php
 			$result6=mysqli_query($db,"SELECT * FROM `tip`");?>
-			<select>
+			<select class="tip">
 				<?php while ($row6=mysqli_fetch_assoc($result6)) {
 				echo"<option value='{$row6['id']}'>{$row6['name']}</option>";
 			}?>
