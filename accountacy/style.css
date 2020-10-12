@@ -1,178 +1,238 @@
 #border{
 	border: 2px solid #000000;
 	margin-left:250px;
-	margin-right: 370px;
+	width: 960px;
+	float: left;
 }
 .horizontal{
 	border-bottom: 2px solid #000000;
 	width:960px;
+	float: left;
 }
 .border1{
 	border-left: 2px solid #000000;
 	border-right: 2px solid #000000;
 	border-bottom: 2px solid #000000;
-	height: 195px;
 	margin-left: 250px;
-	margin-right: 850px;
+	height: 198px;
 	padding-left: 10px;
+	width: 470px;
+	float: left;
 }
 #line1{
 	border-bottom: 2px solid #000000;
-	width:70px;
-	margin-top: -199px;
-	margin-left: 733px;
+	margin-top: -2px;
 	padding-left: 20px;
-	padding-top: 3px;
+	width: 68px;
+	float: left;
 }
 #line2{
 	border-bottom: 2px solid #000000;
-	width:70px;
-	margin-top: -13px;
-	margin-left: 733px;
+	margin-top: 48px;
+	margin-left: -88px;
 	padding-left: 20px;
-	padding-top: 9px;
+	width:68px;
+	float: left;
 }
 #line3{
 	border-bottom: 2px solid #000000;
-	width:70px;
-	margin-top: -13px;
-	margin-left: 733px;
-	padding-left: 20px;
+	margin-top: 90px;
+	margin-left: -88px;
 	padding-top: 10px;
+	padding-left: 20px;
+	width:68px;
+	float: left;
 }
 #line4{
 	border-bottom: 2px solid #000000;
-	width:70px;
-	margin-top: 43px;
-	margin-left: 733px;
+	margin-top: 198px;
+	margin-left: -88px;
 	padding-left: 20px;
+	width:68px;
+	float: left;
 }
 .border2{
 	border-left: 2px solid #000000;
 	border-right: 2px solid #000000;
 	border-bottom: 2px solid #000000;
 	height: 198px;
-	width: 385px;
-	margin-top: -200px;
-	margin-left: 820px;
-	margin-right: 850px;
+	margin-left: -2px;
 	padding-left: 5px;
-	padding-top: 1px;
+	width: 385px;
+	float: left;
 }
 .border3{
 	border-left: 2px solid #000000;
 	border-right: 2px solid #000000;
 	border-bottom: 2px solid #000000;
-	height: 95px;
-	margin-left: 250px;
-	margin-right: 850px;
+	height: 101px;
+	margin-top: 195px;
+	margin-left: -484px;
 	padding-left: 10px;
+	width: 470px;
+	float: left;
 }
 #line5{
 	border-bottom: 2px solid #000000;
-	width:70px;
-	margin-top: -109px;
-	margin-left: 733px;
+	margin-top: 198px;
+	margin-left: -88px;
 	padding-left: 20px;
-	padding-top: 9px;
+	width:68px;
+	float: left;
 }
 #line6{
 	border-bottom: 2px solid #000000;
-	width:70px;
-	margin-top: 46px;
-	margin-left: 733px;
+	margin-top: 296px;
+	margin-left: -88px;
 	padding-left: 20px;
+	width:68px;
+	float: left;
 }
 #line7{
 	border-bottom: 2px solid #000000;
-	width:70px;
-	margin-top: -96px;
-	margin-left: 733px;
+	margin-top: 296px;
+	margin-left: -88px;
 	padding-left: 20px;
+	width:68px;
+	float: left;
 }
 #line8{
 	border-bottom: 2px solid #000000;
-	width:70px;
-	margin-top: 42px;
-	margin-left: 733px;
+	margin-top: 392px;
+	margin-left: -88px;
 	padding-left: 20px;
+	width: 68px;
+	float: left;
 }
 .border4{
 	border-left: 2px solid #000000;
 	border-right: 2px solid #000000;
 	border-bottom: 2px solid #000000;
-	height: 84px;
-	width: 385px;
-	margin-top: -96px;
+	height: 86px;
 	margin-left: 820px;
-	margin-right: 850px;
-	padding-left: 5px;
 	padding-top: 10px;
+	padding-left: 5px;
+	width: 385px;
+	float: left;
 }
 .border5{
 	border-left: 2px solid #000000;
 	border-right: 2px solid #000000;
 	border-bottom: 2px solid #000000;
-	height: 105px;
-	margin-top: -29px;
-	margin-left: 250px;
-	margin-right: 850px;
+	height: 89px;
+	margin-top: 298px;
+	margin-left: -484px;
 	padding-left: 10px;
-	padding-top: 15px;
+	padding-top: 5px;
+	width: 470px;
+	float: left;
 }
 .border6{
 	border-left: 2px solid #000000;
 	border-right: 2px solid #000000;
 	border-bottom: 2px solid #000000;
-	height: 76px;
-	margin-top: -93px;
+	height: 79px;
 	margin-left: 820px;
-	margin-right: 370px;
-	padding-left: 7px;
 	padding-top: 15px;
+	padding-left: 7px;
+	width: 383px;
+	float: left;
 }
 .border7{
 	border-left: 2px solid #000000;
 	border-right: 2px solid #000000;
 	border-bottom: 2px solid #000000;
-	height: 80px;
+	height: 85px;
 	margin-left: 250px;
 	margin-right: 370px;
 	padding-left: 7px;
 	padding-top: 5px;
-}
-#data{
-	background-image: url('calendar.jpg');
-	background-position: right;
-	padding-right: 3px;
-	background-size:20px;
-	background-repeat: no-repeat;
-}
-#date{
-	background-image: url('calendar.jpg');
-	background-position: right;
-	padding-right: 3px;
-	background-size:20px;
-	background-repeat: no-repeat;
-}
-#tva{
-	background-image: url('tva.jpg');
-	position: left;
-	background-size:20px;
-	background-repeat: no-repeat;
-	margin-left: -7px;
+	width: 953px;
+	float: left;
 }
 .sageata1{
-	background-image: url('sageata.jpg');
-	background-position: right;
-	padding-right: 40px;
-	background-size:20px;
-	background-repeat: no-repeat;
+	margin-top: -276px;
+	margin-left: 940px;
+	cursor: pointer;
+	float: left;
 }
 .sageata2{
-	background-image: url('sageata.jpg');
-	background-position: right;
-	padding-right: 335px;
-	background-size:20px;
-	background-repeat: no-repeat;
+	display: none;
+	margin-top: -182px;
+	margin-left: 680px;
+	cursor: pointer;
+	float: left;
+}
+.d-inline-block {
+	display: inline-block;
+}
+.ui-datepicker-trigger {
+	height: 22px;
+	padding: 0;
+	float: right;
+}
+.rama1 {
+	border: 1px solid #000;
+	background: #ffffff;
+	height: auto;
+	max-height: 80vh;
+	overflow-y: auto;
+	width: 45%;
+	display: none;
+	position: absolute;
+	top: 35%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+	z-index: 100;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+	padding: 10px 0 0 10px;
+}
+.rama2{
+	border: 2px solid #000000;
+	background: #ffffff;
+	display: none;
+    max-height: 300px;
+    overflow-y: auto;
+	margin-top: -470px;
+	margin-left: 450px;
+	padding-left: 10px;
+	width: 530px;
+	float: left;
+}
+#mail_txt {
+	border: 2px solid #000000;
+	background: #ffffff;
+	display: none;
+    overflow-y: auto;
+	margin-top: -470px;
+	margin-left: 450px;
+	padding: 10px;
+	width: 530px;
+	float: left;
+}
+.close1{
+	margin-right: 10px;
+	float: right;
+	cursor: pointer;
+}
+.close2{
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+	cursor: pointer;
+}
+.close3{
+	float: right;
+	cursor: pointer;
+}
+.exemplu-flex {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+a{color: #000000;}
+
+.factor_tva{
+	margin-left: -5px;
 }

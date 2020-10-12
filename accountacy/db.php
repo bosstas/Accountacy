@@ -6,6 +6,6 @@ $par4_db="bank";
 
 $db=mysqli_connect($par1_ip, $par2_name, $par3_p, $par4_db);
 if ($db==false) {
-	echo "Соединение не удалось";
+	exit("Соединение не удалось");
 }
  ?>
